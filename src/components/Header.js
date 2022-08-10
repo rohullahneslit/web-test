@@ -11,7 +11,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="w-full mb:[60px] z-1000 lg:mb:[0px]	 bg-[#1849C6] top-0 fixed left-0 z-50">
+    <div className="w-full  z-1000 lg:mb:0	 bg-[#1849C6] top-0 fixed left-0 z-50">
       <div className="lg:flex  items-center justify-between bg-transparent  py-4 lg:px-20 px-7">
         <div className="font-bold text-1xl cursor-pointer  flex items-center text-white ">
           <span className="text-2xl text-[#ffce31] mr-1 pt-2">
@@ -26,7 +26,7 @@ const Header = () => {
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
         <ul
-          className={`lg:flex bg-[#1849C6] lg:bg-[transparent] lg:items-center lg:pb-0 pb-12 absolute lg:static bg-transparent lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`lg:flex bg-[#1849C6] lg:bg-[transparent] lg:items-center lg:pb-0 pb-24 absolute lg:static bg-transparent lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? "top-20 " : "hidden"
           }`}
         >
